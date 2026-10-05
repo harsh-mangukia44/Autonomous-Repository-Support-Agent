@@ -1,0 +1,32 @@
+{
+  "name": "mlh",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@ai-sdk/openai": "^4.0.83",
+    "@langchain/textsplitters": "^1.0.2",
+    "@mastra/core": "^1.74.0",
+    "@sentry/node": "^11.4.0",
+    "@sentry/profiling-node": "^11.4.0",
+    "@temporalio/activity": "^1.24.0",
+    "@temporalio/client": "^1.24.0",
+    "@temporalio/worker": "^1.24.0",
+    "@temporalio/workflow": "^1.24.0",
+    "dotenv": "^18.0.5",
+    "mongodb": "^7.7.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
